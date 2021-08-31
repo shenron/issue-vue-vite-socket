@@ -1,4 +1,10 @@
-# vue-socket
+# Issue with Vite + Socket.Io
+
+| Vite          | Webpack       | socket.io  |
+| ------------- |:-------------:| ----------:|
+| ko            | ok            | 4.2.x      |
+| ok            | ok            | 4.1.x      |
+
 
 ## Project setup
 ```
