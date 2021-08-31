@@ -5,6 +5,10 @@
 | ko            | ok            | 4.2.x      |
 | ok            | ok            | 4.1.x      |
 
+To reproduce the issue:
+- start socket.io server: `node socket-server.js`
+- start dev server: `npm run serve`
+
 
 ## Project setup
 ```
