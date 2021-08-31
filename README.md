@@ -9,7 +9,7 @@ https://github.com/vitejs/vite/issues/4798
 
 To reproduce the issue:
 - start socket.io server: `node socket-server.js`
-- start dev server: `npm run serve`
+- start dev server: `npm run dev`
 
 
 ## Project setup
