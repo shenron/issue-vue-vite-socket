@@ -4,12 +4,22 @@
 </template>
 
 <script>
+import { io } from 'socket.io-client';
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+    const socket = io(window.location.origin, {
+      path: '/socket.io',
+    });
+
+    socket.on('connect', () => {
+      console.log('socket io client ready');
+    });
   }
 }
 </script>
