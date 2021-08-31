@@ -1,5 +1,7 @@
 # Issue with Vite + Socket.Io
 
+https://github.com/vitejs/vite/issues/4798
+
 | Vite          | Webpack       | socket.io  |
 | ------------- |:-------------:| ----------:|
 | ko            | ok            | 4.2.x      |
